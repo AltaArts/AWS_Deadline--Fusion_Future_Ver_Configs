@@ -275,7 +275,7 @@ Category=Fusion 18 Options
 CategoryOrder=6
 CategoryIndex=0
 Default=C:\Program Files\Blackmagic Design\Fusion Render Node 18\FusionRenderNode.exe;C:\Program Files\Blackmagic Design\Fusion 18\Fusion.exe;/opt/BlackmagicDesign/FusionRenderNode18/FusionRenderNode;/opt/BlackmagicDesign/Fusion18/Fusion;/Applications/Blackmagic Fusion 18 Render Node/Fusion Render Node.app/Contents/MacOS/Fusion Render Node;/Applications/Blackmagic Fusion 18/Fusion.app/Contents/MacOS/Fusion
-Description=The path to the Fusion 19 Render Node executable used for rendering. Enter alternative paths on separate lines.
+Description=The path to the Fusion 18 Render Node executable used for rendering. Enter alternative paths on separate lines.
 
 [Fusion18WaitForExecutable]
 Type=string
@@ -336,6 +336,78 @@ Type=filename
 Label=Fusion 19 Node Preference File
 Category=Fusion 19 Options
 CategoryOrder=7
+CategoryIndex=3
+Default=
+Description=The path to a global RenderSlave.prefs preference file that is copied over before starting the Render. Leave blank to disable this feature.
+
+[Fusion20RenderExecutable]
+Type=multilinemultifilename
+Label=Fusion 20 Render Executable
+Category=Fusion 20 Options
+CategoryOrder=8
+CategoryIndex=0
+Default=C:\Program Files\Blackmagic Design\Fusion Render Node 20\FusionRenderNode.exe;C:\Program Files\Blackmagic Design\Fusion 20\Fusion.exe;/opt/BlackmagicDesign/FusionRenderNode20/FusionRenderNode;/opt/BlackmagicDesign/Fusion20/Fusion;/Applications/Blackmagic Fusion 20 Render Node/Fusion Render Node.app/Contents/MacOS/Fusion Render Node;/Applications/Blackmagic Fusion 20/Fusion.app/Contents/MacOS/Fusion
+Description=The path to the Fusion 20 Render Node executable used for rendering. Enter alternative paths on separate lines.
+
+[Fusion20WaitForExecutable]
+Type=string
+Label=Fusion 20 Wait For Executable
+Category=Fusion 20 Options
+CategoryOrder=8
+CategoryIndex=1
+Default=
+Description=If you use a proxy FusionRenderNode.exe, set this to the name of the renamed original.  For example, it might be set to FusionRenderNode_original.exe.
+
+[Fusion20VersionToEnforce]
+Type=string
+Label=Fusion 20 Version To Enforce
+Category=Fusion 20 Options
+CategoryOrder=8
+CategoryIndex=2
+Default=
+Description=Deadline will only render Fusion 20 jobs on Workers running this version of Fusion 20. Use a ; to separate alternative versions. Leave blank to disable this feature.
+
+[Fusion20SlavePreferenceFile]
+Type=filename
+Label=Fusion 20 Node Preference File
+Category=Fusion 20 Options
+CategoryOrder=8
+CategoryIndex=3
+Default=
+Description=The path to a global RenderSlave.prefs preference file that is copied over before starting the Render. Leave blank to disable this feature.
+
+[Fusion21RenderExecutable]
+Type=multilinemultifilename
+Label=Fusion 21 Render Executable
+Category=Fusion 21 Options
+CategoryOrder=9
+CategoryIndex=0
+Default=C:\Program Files\Blackmagic Design\Fusion Render Node 21\FusionRenderNode.exe;C:\Program Files\Blackmagic Design\Fusion 21\Fusion.exe;/opt/BlackmagicDesign/FusionRenderNode21/FusionRenderNode;/opt/BlackmagicDesign/Fusion21/Fusion;/Applications/Blackmagic Fusion 21 Render Node/Fusion Render Node.app/Contents/MacOS/Fusion Render Node;/Applications/Blackmagic Fusion 21/Fusion.app/Contents/MacOS/Fusion
+Description=The path to the Fusion 21 Render Node executable used for rendering. Enter alternative paths on separate lines.
+
+[Fusion21WaitForExecutable]
+Type=string
+Label=Fusion 21 Wait For Executable
+Category=Fusion 21 Options
+CategoryOrder=9
+CategoryIndex=1
+Default=
+Description=If you use a proxy FusionRenderNode.exe, set this to the name of the renamed original.  For example, it might be set to FusionRenderNode_original.exe.
+
+[Fusion21VersionToEnforce]
+Type=string
+Label=Fusion 21 Version To Enforce
+Category=Fusion 21 Options
+CategoryOrder=9
+CategoryIndex=2
+Default=
+Description=Deadline will only render Fusion 21 jobs on Workers running this version of Fusion 21. Use a ; to separate alternative versions. Leave blank to disable this feature.
+
+[Fusion21SlavePreferenceFile]
+Type=filename
+Label=Fusion 21 Node Preference File
+Category=Fusion 21 Options
+CategoryOrder=9
 CategoryIndex=3
 Default=
 Description=The path to a global RenderSlave.prefs preference file that is copied over before starting the Render. Leave blank to disable this feature.

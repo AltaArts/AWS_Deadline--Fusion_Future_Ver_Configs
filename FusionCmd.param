@@ -178,10 +178,46 @@ CategoryIndex=1
 Default=
 Description=The path to a global RenderSlave.prefs preference file that is copied over before starting the Render Node. Leave blank to disable this feature.
 
+[Fusion20RenderExecutable]
+Type=multilinemultifilename
+Label=Fusion 20 Render Executable
+Category=Fusion 20 Options
+CategoryOrder=7
+CategoryIndex=0
+Default=C:\Program Files\Blackmagic Design\Fusion Render Node 20\FusionRenderNode.exe;/opt/BlackmagicDesign/FusionRenderNode20/FusionRenderNode;/opt/BlackmagicDesign/Fusion20/Fusion;/Applications/Blackmagic Fusion 20 Render Node/Fusion Render Node.app/Contents/MacOS/Fusion Render Node;/Applications/Blackmagic Fusion 20/Fusion.app/Contents/MacOS/Fusion
+Description=The path to the Fusion 20 Console Node executable used for rendering. Enter alternative paths on separate lines.
+
+[Fusion20SlavePreferenceFile]
+Type=filename
+Label=Fusion 20 Render Node Preference File
+Category=Fusion 20 Options
+CategoryOrder=7
+CategoryIndex=1
+Default=
+Description=The path to a global RenderSlave.prefs preference file that is copied over before starting the Render Node. Leave blank to disable this feature.
+
+[Fusion21RenderExecutable]
+Type=multilinemultifilename
+Label=Fusion 21 Render Executable
+Category=Fusion 21 Options
+CategoryOrder=8
+CategoryIndex=0
+Default=C:\Program Files\Blackmagic Design\Fusion Render Node 21\FusionRenderNode.exe;/opt/BlackmagicDesign/FusionRenderNode21/FusionRenderNode;/opt/BlackmagicDesign/Fusion21/Fusion;/Applications/Blackmagic Fusion 21 Render Node/Fusion Render Node.app/Contents/MacOS/Fusion Render Node;/Applications/Blackmagic Fusion 21/Fusion.app/Contents/MacOS/Fusion
+Description=The path to the Fusion 21 Console Node executable used for rendering. Enter alternative paths on separate lines.
+
+[Fusion21SlavePreferenceFile]
+Type=filename
+Label=Fusion 21 Render Node Preference File
+Category=Fusion 21 Options
+CategoryOrder=8
+CategoryIndex=1
+Default=
+Description=The path to a global RenderSlave.prefs preference file that is copied over before starting the Render Node. Leave blank to disable this feature.
+
 [EnablePathMapping]
 Type=boolean
 Category=Path Mapping For Mixed Farms (Fusion 8 and later)
-CategoryOrder=6
+CategoryOrder=9
 CategoryIndex=0
 Label=Enable Path Mapping
 Default=true

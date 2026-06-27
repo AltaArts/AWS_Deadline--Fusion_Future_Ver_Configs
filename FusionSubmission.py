@@ -171,7 +171,7 @@ def __main__( *args ):
     scriptDialog.AddSelectionControlToGrid( "HighQualityBox", "CheckBoxControl", False, "High Quality", 4, 2, "Whether or not to render with high quality (not supported in command line mode)." )
 
     scriptDialog.AddControlToGrid( "VersionLabel", "LabelControl", "Version", 5, 0, "The version of Fusion to render with.", False )
-    scriptDialog.AddComboControlToGrid( "VersionBox", "ComboControl", "16", ["5","6","7","8", "9", "16", "17", "18", "19"], 5, 1 )
+    scriptDialog.AddComboControlToGrid( "VersionBox", "ComboControl", "16", ["5","6","7","8", "9", "16", "17", "18", "19", "20", "21"], 5, 1 )
     commandLineModeBox = scriptDialog.AddSelectionControlToGrid( "CommandLineModeBox", "CheckBoxControl", False, "Command Line Mode", 5, 2, "Enable to render in command line mode using the FusionCmd plugin (this disables some features)." )
     commandLineModeBox.ValueModified.connect(CommandLineModeChanged)
 
