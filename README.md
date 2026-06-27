@@ -1,4 +1,4 @@
-# AWS_Deadline--Fusion_18and19_Configs
+# AWS_Deadline--Fusion Future Versions Configs
 
 This is an archive for memory of the files that need to be modified to get Deadline working with Fusion versions above 9.
 
